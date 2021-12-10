@@ -1,0 +1,8 @@
+https://leetcode.com/hiepit/
+
+
+regex 
+filters all the non word character 
+re.findall(r'\w+', ls.lower())
+
+
