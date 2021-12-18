@@ -8,28 +8,3 @@
    }
 
 }
-
-[
-    {
-        "name":"anmoll"
-        ,"score":11.7,
-        "isAdmin":true,
-        "we can also use array":[1,2,3,1,2,3,55]
-       , "we can also use object":{
-           "key":"value"
-       }
-    
-    }
-,
-{
-    "name":"anmol"
-    ,"score":11.75,
-    "isAdmin":false,
-    "we can also use array":[1,2,3,1,2,3,55]
-   , "we can also use object":{
-       "key":"value"
-   }
-
-}
-
-]
