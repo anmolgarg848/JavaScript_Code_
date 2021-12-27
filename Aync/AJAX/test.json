@@ -1,0 +1,12 @@
+[
+    {
+        "name":"anmol"
+        ,"score":11.75,
+        "isAdmin":false,
+        "we can also use array":[1,2,3,1,2,3,55]
+       , "we can also use object":{
+           "key":"value"
+       }
+    
+    }
+]

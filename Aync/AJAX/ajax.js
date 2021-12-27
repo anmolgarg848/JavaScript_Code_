@@ -27,6 +27,13 @@ xhr.onreadystatechange = function(){
 // ready state code  are from 0-->4
 // refer docs for their code values 
     console.log("Ready state is :", xhr.readyState);
+if(xhr.readyState===4){
+    const response = xhr.response;
+    const data = JSON.parse(response)
+    console.log(typeof data)
+}
+
+
 }
 
 
@@ -36,10 +43,13 @@ xhr.onload = function(){
     if(this.status===200){
         console.log(this.responseText)
     }else{
-        console.log("Some error Occured ")  
-    }
-   
+        // Error Handling 
+        }
 }
+    // Error Handling 
+    xhr.onerror=()=>{
+        
+    }
 // sending  the request 
 xhr.send()
 // main feature of ajax ==> without reloading browser we can load data from the server to the frontend 
